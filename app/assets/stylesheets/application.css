@@ -1,0 +1,90 @@
+div#strona{
+    width:1500px;
+    height:800px;
+    background-color: antiquewhite;
+    border:double;
+}
+div#menrej{
+    width:241px;
+    height:150px;
+    border: double;
+    float: left;
+    background-color: dodgerblue;
+}
+div#baner{
+    width:1000px;
+    height:150px;
+    float: left;
+    background-color: dodgerblue;
+    border: double;
+}
+div#menlog {
+    width: 241px;
+    height: 150px;
+    border: double;
+    float: right;
+    background-color: dodgerblue;
+}
+input#log{
+    margin-left:160px;
+}
+input#rej{
+    margin-left:185px;
+}
+div#ram{
+    height:780px;
+    width: 1500px;
+}
+div#stopka{
+    width:1500px;
+    height:20px;
+    background-color:dodgerblue;
+    border: double;
+    text-align: right;
+}
+
+div#ocena{
+    width:241px;
+    height:25px;
+    float:right;
+    border: double;
+    background-color:dodgerblue;
+}
+button#ocen{
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    align-items: center;
+}
+div#pom{
+    margin-bottom:3px;
+    margin-top:3px;
+}
+.menudiv{
+    width:119.3px;
+    height:25px;
+    float: left;
+    border: double;
+    text-align: center;
+    background-color:dodgerblue;
+
+}
+.a{
+    text-decoration: none;
+}
+div#menu{
+    width: 1247px;
+    height:25px;
+    border: double;
+    background-color:dodgerblue;
+    float: left;
+
+}
+div#linki{
+    height: 587px;
+    width: 120px;
+    float: left;
+    background-color: dodgerblue;
+    border: double;
+    text-align: center;
+}

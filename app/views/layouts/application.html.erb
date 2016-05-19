@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Untitled</title>
+  <%= stylesheet_link_tag    'application.css', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application.js', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="strona">
+  <div id="menrej">
+    <p align="center">Rejestracja</p>
+    <form>
+      <p align="center">Email: <input type="text"></p>
+      <p align="center">Hasło: <input type="text"></p>
+      <input id="rej" type="submit" value="Ok">
+    </form>
+  </div>
+  <div id="baner" align="center"><h1>Porównanie samochodów</h1></div>
+  <div id="menlog">
+    <p align="center">Logowanie</p>
+    <form>
+      <p align="center">Login: <input type="text"></p>
+      <p align="center">Hasło: <input type="text"></p>
+      <input id="log" type="submit" value="Zaloguj">
+    </form>
+  </div>
+  <div id="ram"><%= yield %></div>
+  <div id="stopka">By Marcin ®</div>
+</div>
+
+
+
+</body>
+</html>
